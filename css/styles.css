@@ -225,6 +225,7 @@ header a:hover {
         
   float: left;
   width: 50%;
+        text-align: center;
 }
 
 @media screen and (min-width: 40em) {
