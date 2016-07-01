@@ -136,7 +136,11 @@ header {
 }
 
 header a:hover {
-   color: rgba(33, 33, 33, 0.7);
+   color:white;
+}
+
+.logo:hover {
+    color: rgba(33, 33, 33, 0.7);
 }
 
 .logo {
@@ -379,6 +383,15 @@ display : block;
             background-color: #b3b3b3;
 }
 
+.login:hover {
+    
+    background-color: rgba(0,0,0,0.2);
+}
+
+.share:hover {
+    background-color: #96c996;
+    
+}
 .img-wf:hover {
         background-color:black;
 }
