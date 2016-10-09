@@ -106,7 +106,7 @@ body {
 section {
 
   
-  padding: 100px 0 0;
+  padding: 60px 0 0;
 
   width: 100%;
 }
@@ -392,9 +392,7 @@ display : block;
     background-color: #96c996;
     
 }
-.img-wf:hover {
-        background-color:black;
-}
+
 
 .wf-box img {
         -webkit-transition: all 0.2s linear;
@@ -404,15 +402,9 @@ display : block;
             transition: all 0.2s linear;
 }
 
-.wf-box:hover img {
-opacity: 0.6;
-}
 
-.wf-box {
-    background-color: black;
-}
 
-input[type=text] {
+.search input[type=text] {
     width:100%;
     box-sizing: border-box;
     border: 1px solid #ccc;
@@ -429,6 +421,49 @@ input[type=text] {
     font-weight: 300;
 }
 
-input[type=text]:focus {
+.search input[type=text]:focus {
    
+}
+.social-reddit {
+  
+    
+}
+
+.social {
+      margin:0px;
+    padding:10px 20px;;
+    margin-left:10px;
+
+    
+}
+
+.reddit {
+        background-color:#ff4500;
+    color:white;;
+}
+
+.facebook {
+        background-color:#3b5998;
+    color:white;;
+}
+
+.download {
+
+    outline: 1px solid black;
+    color:black;
+}
+
+.download:hover {
+    color:black;
+    outline: 1px solid black;
+}
+
+.facebook:hover {
+    color:white;
+    background-color:#486ebe;
+}
+
+.reddit:hover {
+    color:white;
+    background-color: #ff5a1c;
 }
